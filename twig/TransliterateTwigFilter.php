@@ -15,7 +15,7 @@ class TransliterateTwigFilter extends \Twig_Extension
         ];
     }
     /**
-     * Sanitize: Remove special characters
+     * Transliterate: Remove special characters
      */    
     public function TransliterateFunction($string)
     {
