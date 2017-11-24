@@ -20,7 +20,7 @@ class TransliterateTwigFilter extends \Twig_Extension
     public function TransliterateFunction($string)
     {
         $string = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
-        $string = preg_replace('/[^A-Za-z0-9 _]/', '', $string);
+        $string = preg_replace('/[^A-Za-z0-9 \-_]/', '', $string);
         return $string;
     }
     /**
