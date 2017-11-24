@@ -47,7 +47,7 @@ To convert accented characters in a string to ASCII equivalents, use the `transl
 
     {{ person.name|transliterate }}
 
-Motörhead Nylén will output Motorhead Nylen and Đáç Århus outputs Dac Arhus. 
+Motör-Heäd Nylén will output Motor-Head Nylen and Đáç Århus outputs Dac Arhus. 
 
 
 ### Filename
